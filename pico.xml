@@ -94,6 +94,6 @@
 
   <!-- PICO specific things -->
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" revision="3905a0b8fff94ed12a1149dc72875d15a6501c7a"/>
-  <project path="device/htc/pico" name="device_htc_pico" remote="cuteprince" revision="master"/>
+  <project path="device/htc/pico" name="b2g_device_htc_pico" remote="cuteprince" revision="master"/>
   <project path="vendor/htc/pico" name="ics-vendor-pico" remote="cuteprince" revision="master"/>
 </manifest>
