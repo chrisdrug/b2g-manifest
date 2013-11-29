@@ -94,8 +94,8 @@
 
   <!-- HERO specific things -->
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" revision="3905a0b8fff94ed12a1149dc72875d15a6501c7a"/>
-  <project path="device/htc/hero" name="B2G_device_htc_hero" remote="chrisdrug" revision="master"/>
-  <project path="vendor/htc/hero" name="vendor_htc_hero" remote="chrisdrug" revision="master"/>
+  <project path="device/htc/hero" name="B2G_device_htc_hero" remote="chrisdrug" revision="ics"/>
+  <project path="vendor/htc/hero" name="vendor_htc_hero" remote="chrisdrug" revision="ics"/>
     <project path="kernel/htc/hero" name="hero_kernel" remote="chrisdrug" revision="master"/>
 
 </manifest>
