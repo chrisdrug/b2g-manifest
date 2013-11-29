@@ -6,7 +6,7 @@
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="caf" fetch="git://codeaurora.org/"/>
   <remote name="linaro" fetch="http://android.git.linaro.org/git-ro/"/>
-  <remote name="cuteprince" fetch="git://github.com/cuteprince/"/>
+  <remote name="chrisdrug" fetch="git://github.com/chrisdrug/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
   <default revision="ics_chocolate" remote="caf" sync-j="1"/>
 
@@ -92,8 +92,10 @@
   <project path="system/netd" name="platform/system/netd" revision="68637a62227cf8ba9c9aa28034b2e7747cf75cbb"/>
   <project path="system/vold" name="platform/system/vold" revision="ff8140d29751e95aa28fac28c660859e9f624e61"/>
 
-  <!-- PICO specific things -->
+  <!-- HERO specific things -->
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" revision="3905a0b8fff94ed12a1149dc72875d15a6501c7a"/>
-  <project path="device/htc/pico" name="b2g_device_htc_pico" remote="cuteprince" revision="master"/>
-  <project path="vendor/htc/pico" name="ics-vendor-pico" remote="cuteprince" revision="master"/>
+  <project path="device/htc/hero" name="B2G_device_htc_hero" remote="chrisdrug" revision="master"/>
+  <project path="vendor/htc/hero" name="vendor_htc_hero" remote="chrisdrug" revision="master"/>
+    <project path="kernel/htc/hero" name="hero_kernel" remote="chrisdrug" revision="master"/>
+
 </manifest>
